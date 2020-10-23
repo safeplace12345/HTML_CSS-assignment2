@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #F26724;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1,h2{
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .container{
+            width: 600px;
+            /* border: 2px solid black; */
+            margin: 0 auto;
+            box-shadow: 5px 0px 5px 0px;
+        }
+        p{
+           text-align: center;
+           font-size: 0.9rem;
+           text-transform: capitalize;
+           
+        }
+        button{
+            padding: 5px;
+            color: #F26724;
+            font-size: 0.7rem;
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+   <div class="container">
+       
+       <h2>Create your account</h2>
+       <form action="#" method="GET">
+       
+       <p>
+       <label for="name">Enter Name :</label>
+       <input type="text" name="name" placeholder="Enter Name">
+       </p>
+       <p>
+       <label for="email">Enter Email ID</label>
+       <input type="email" name="email" placeholder="Enter Email ID">
+       </p>
+       <p>
+       <label for="username">Enter UserName</label>
+       <input type="text" name="username" placeholder="Enter UserName">
+       </p>
+       <p>
+       <label for="pwd">Enter password</label>
+       <input type="password" name="pwd" placeholder="Enter password">
+       </p>
+       <p>
+       <label for="con-Pwd">Enter password</label>
+       <input type="password" name="con-Pwd" placeholder="Enter password">
+       </p>
+       <p>
+       <button type="reset">Clear Form</button>
+       <button type="submit">Create Account</button>
+       </p>
+      </form>
+
+   </div>
+</body>
+</html>
